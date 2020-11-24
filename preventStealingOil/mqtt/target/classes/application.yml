@@ -1,0 +1,16 @@
+iot:
+    mqtt:
+        clientId: client-1
+        defaultTopic: mqtt_test_topic
+        serverClientId: server-1
+        servers: tcp://47.110.40.9:1883
+
+spring:
+    datasource:
+        url: jdbc:mysql://47.110.40.9:3306/mqtt?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: 15571515448aA!
+        driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+        database: mysql
+        show-sql: true
